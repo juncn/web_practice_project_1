@@ -1,0 +1,25 @@
+{
+  "name": "web_practice_project_1",
+  "version": "1.0.0",
+  "description": "This project is only for practice purpose, all design credit and rights to redistribute belongs to the [original author: Xiaoying Riley](https://github.com/xriley). You can find who is behind the design and this template from [https://themes.3rdwavemedia.com/](https://themes.3rdwavemedia.com/bootstrap-templates/free/) and see the [live demo](https://themes.3rdwavemedia.com/demo/devbook/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juncn/web_practice_project_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juncn/web_practice_project_1/issues"
+  },
+  "homepage": "https://github.com/juncn/web_practice_project_1#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
