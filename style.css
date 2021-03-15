@@ -1,24 +1,100 @@
+/* Background */
 *,
 *::before,
 *::after {
-  font-family: 'Roboto', sans-serif;
-}
+  font-family: 'Roboto', sans-serif; }
+
+img {
+  width: 100%; }
+
+header {
+  padding: 0 16rem; }
 
 /* logo */
 .branding {
-  margin: 20px 16px;
-}
+  padding: 20rem 0; }
 
 .logo a {
-  display: flex;
-}
+  display: flex; }
 
 .logo img {
-  margin-right: 8px;
-}
+  margin-right: 8rem; }
+
+.logo .logo-img {
+  height: 46rem;
+  width: auto; }
 
 .book-name {
-  font-size: 24px;
+  font-size: 24rem;
   font-weight: 700;
-  padding-top: 5px;
-}
+  padding-top: 5px; }
+
+/* hero-section */
+.hero-section {
+  margin-top: 48rem;
+  padding: 0 16rem; }
+  .hero-section .headline {
+    font-family: 'QuickSand', sans-serif;
+    font-size: 32rem;
+    font-weight: 700;
+    color: #1c1e2e;
+    margin-bottom: 16rem; }
+  .hero-section .subheadline {
+    color: #4c527d;
+    font-size: 18rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 24rem; }
+  .hero-section .btn {
+    cursor: pointer;
+    padding: 14rem 40rem;
+    border-radius: 25rem;
+    border: 2px solid transparent;
+    font-size: 16rem;
+    margin-bottom: 16rem; }
+  .hero-section .btn-primary {
+    background-color: #ed6524;
+    color: #ffffff; }
+  .hero-section .btn-secondary {
+    border-color: #ed6524;
+    color: #ed6524; }
+  .hero-section .hero-quotes {
+    margin-bottom: 60rem; }
+  .hero-section blockquote {
+    margin: 0;
+    margin-bottom: 16rem;
+    padding: 16rem 20rem;
+    border-left: 4rem solid #f5a782;
+    background-color: #f6f8fc;
+    color: #4c527d;
+    font-weight: 300;
+    font-style: italic; }
+  .hero-section .quote-author-icon {
+    width: 60rem;
+    height: 60rem;
+    margin: 0 auto;
+    display: block; }
+  .hero-section .quote-author,
+  .hero-section .quote-author-info {
+    color: #4c527d;
+    font-size: 14rem;
+    text-align: center;
+    margin: 5rem; }
+  .hero-section .book-cover-container {
+    text-align: center; }
+  .hero-section .book-badge-container {
+    position: relative; }
+  .hero-section .book-badge {
+    background-color: #5cb377;
+    border-radius: 50%;
+    width: 100rem;
+    height: 100rem;
+    font-size: 20rem;
+    color: #ffffff;
+    padding-top: 20rem;
+    position: absolute;
+    top: -30rem;
+    right: 0; }
+  .hero-section .theme-link {
+    text-decoration: underline; }
