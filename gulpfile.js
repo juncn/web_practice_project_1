@@ -1,10 +1,12 @@
 // Sass configuration
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var plumber = require('gulp-plumber');
 
 gulp.task('sass', function(cb) {
   gulp
     .src('style.scss')
+    .pipe(plumber())
     .pipe(sass())
     .pipe(
       gulp.dest(function(f) {
