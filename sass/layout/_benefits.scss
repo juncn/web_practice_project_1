@@ -1,0 +1,82 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.benefits-section {
+  margin-top: 48rem;
+  padding: 48rem 16rem;
+  max-width: 1200rem;
+  margin: 48rem auto 0;
+  background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+}
+
+.benefits-headline-container {
+  padding-top: 48rem;
+  text-align: center;
+}
+
+.benefits-headline {
+  margin-bottom: 16rem;
+  font-family: $quicksand;
+  font-size: 28rem;
+  font-weight: $fw-bold;
+}
+
+.benefits-intro {
+  color: $secondary-color;
+  font-family: $roboto;
+  font-size: 18rem;
+  font-weight: $fw-medium;
+  line-height: 27rem;
+  margin: 0 auto 48rem;
+}
+
+.svg-icon {
+  max-width: 50rem;
+  max-height: 40rem;
+  margin-bottom: 15rem;
+  fill: $btn-primary;
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.benefits-item {
+  padding: 16rem;
+}
+
+.item-heading {
+  color: $primary-color;
+  font-family: $quicksand;
+  font-size: 18rem;
+  font-weight: $fw-bold;
+  margin-bottom: 16rem;
+}
+
+.item-desc {
+  color: $secondary-color;
+  font-size: 16rem;
+  font-weight: $fw-medium;
+  line-height: 24rem;
+}
+
+@include tablet {
+  .benefits-item {
+    flex-basis: 50%;
+    padding:32rem;
+  }
+
+  .benefits-intro {
+    max-width: 700rem;
+  }
+}
+
+@include desktop {
+  .benefits-item {
+    flex-basis: 33.33%;
+  }
+}
