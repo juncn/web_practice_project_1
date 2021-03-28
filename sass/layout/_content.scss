@@ -1,0 +1,74 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.content-section {
+  padding: 0 16rem;
+}
+
+.figure-holder {
+  margin-bottom: 48rem;
+}
+
+.content-headline {
+  color: $primary-color;
+  font-family: $quicksand;
+  font-size: 28rem;
+  font-weight: $fw-bold;
+  margin-bottom: 48rem;
+  text-align: center;
+}
+
+.key-points {
+  padding: 0 12rem;
+  margin-bottom: 48rem;
+  text-align: center;
+}
+
+.key-points-list {
+  margin-bottom: 24rem;
+  display: inline-block;
+}
+
+.key-points-item {
+  margin-bottom: 16rem;
+  color: $secondary-color;
+  font-size: 18rem;
+  font-weight: $fw-medium;
+  line-height: 27rem;
+  display: flex;
+  align-items: center;
+}
+
+.key-points-svg {
+  width: 18rem;
+  height: 18rem;
+  fill: $light-green;
+  margin-right: 4rem;
+}
+
+.key-points-btn {
+  background-color: $btn-primary;
+  color: $white;
+  display: block;
+  padding: 14rem 40rem;
+  border-radius: 32rem;
+  margin: 0 auto;
+}
+
+@include tablet {
+  .content-container {
+    display: flex;
+    justify-content: center;
+    max-width: 760rem;
+    margin: 0 auto;
+  }
+
+  .figure-holder {
+    flex-basis: 50%;
+  }
+
+  .figure-holder,
+  .key-points {
+    padding: 0 16rem;
+  }
+}
