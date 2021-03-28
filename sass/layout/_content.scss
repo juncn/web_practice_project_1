@@ -72,3 +72,9 @@
     padding: 0 16rem;
   }
 }
+
+@include desktop {
+  .content-headline {
+    font-size: 40rem;
+  }
+}

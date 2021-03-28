@@ -1,0 +1,62 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.audience-section {
+  max-width: 960rem;
+  margin: 0 auto;
+  padding: 48rem 16rem;
+}
+
+.audience-heading {
+  color: $primary-color;
+  font-family: $quicksand;
+  font-size: 28rem;
+  font-weight: $fw-bold;
+  margin-bottom: 24rem;
+  text-align: center;
+}
+
+.audience-intro {
+  color: $secondary-color;
+  font-family: $roboto;
+  font-size: 18rem;
+  font-weight: $fw-medium;
+  line-height: 27rem;
+  text-align: center;
+  margin: 0 auto 48rem;
+  max-width: 760rem;
+}
+
+.audience-container {
+  max-width: 500rem;
+  margin: 0 auto;
+}
+
+.audience-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24rem;
+}
+
+.audience-icon {
+  min-width: 25rem;
+  height: 20rem;
+  fill: $light-green;
+  margin-right: 16rem;
+}
+
+@include tablet {
+  .audience-section {
+    padding: 48rem 24rem;
+  }
+  
+  .audience-intro {
+    padding: 0 15rem;
+  }
+}
+
+@include desktop {
+  .audience-heading {
+    font-size: 40rem;
+  }
+}
