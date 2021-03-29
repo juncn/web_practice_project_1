@@ -1,0 +1,24 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.footer {
+  padding: 48rem 16rem;
+  text-align: center;
+}
+
+.copyright {
+  color: $secondary-color;
+  font-size: 13rem;
+  margin: 0 auto;
+
+  svg {
+    color: #fb866a;
+    width: 14rem;
+    height: 14rem;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}
