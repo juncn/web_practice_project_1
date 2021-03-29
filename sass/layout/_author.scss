@@ -1,0 +1,83 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.author-section {
+  background-color: $btn-primary;
+  padding: 48rem 16rem;
+  color: $white;
+}
+
+.author-profile {
+  width: 150rem;
+  height: 150rem;
+  margin: 0 auto;
+  margin: 16rem auto 48rem;
+}
+
+.author-heading {
+  font-family: $quicksand;
+  font-size: 28rem;
+  font-weight: $fw-bold;
+  margin-bottom: 16rem;
+  text-align: center;
+}
+
+.author-bio {
+  margin-bottom: 16rem;
+  line-height: 24rem;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.author-links {
+  padding-top: 24rem;
+}
+
+.author-links-heading {
+  font-family: $quicksand;
+  font-size: 20rem;
+  font-weight: $fw-bold;
+  margin-bottom: 24rem;
+  text-align: center;
+}
+
+.social-links-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link-item {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 36rem;
+  height: 36rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8rem;
+}
+
+.social-link {
+  fill: $white;
+  width: 16rem;
+  height: 16rem;
+}
+
+@include tablet {
+  .author-section {
+    padding: 48rem 68rem;
+  }
+}
+
+@include desktop {
+  .author-heading {
+    font-size: 40rem;
+  }
+
+  .author-bio {
+    max-width: 760rem;
+    margin: 0 auto 16rem;
+  }
+}
