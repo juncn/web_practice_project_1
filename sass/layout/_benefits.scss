@@ -2,11 +2,14 @@
 @import '../utilities/mixins';
 
 .benefits-section {
+  background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+}
+
+.benefits-container {
   margin-top: 48rem;
   padding: 48rem 16rem;
   max-width: 1200rem;
   margin: 48rem auto 0;
-  background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
 }
 
 .benefits-headline-container {
