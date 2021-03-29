@@ -1,0 +1,136 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.review-section {
+  padding: 48rem 16rem;
+  text-align: center;
+}
+
+.review-heading {
+  color: $primary-color;
+  font-family: $quicksand;
+  font-size: 28rem;
+  font-weight: $fw-bold;
+  margin-bottom: 8rem;
+}
+
+.review-intro {
+  color: $secondary-color;
+  font-size: 18rem;
+  font-weight: $fw-medium;
+  line-height: 27rem;
+  margin-bottom: 48rem;
+}
+
+.review-item {
+  background-color: $bg-light;
+  padding: 24rem;
+  margin-bottom: 40rem;
+  position: relative;
+}
+
+.review-text {
+  color: $secondary-color;
+  font-size: 16rem;
+  font-weight: $fw-medium;
+  font-style: italic;
+  line-height: 24rem;
+  margin: 0 0 16rem 0;
+  text-align: left;
+}
+
+.review-author-icon {
+  width: 60rem;
+  height: 60rem;
+  margin-bottom: 8rem;
+}
+
+.review-author-name,
+.review-author-title {
+  color: $secondary-color;
+  font-size: 14rem;
+  font-weight: $fw-medium;
+  line-height: 21rem;
+}
+
+.review-btn {
+  background-color: $btn-primary;
+  color: $white;
+  padding: 14rem 40rem;
+  border-radius: 32rem;
+  cursor: pointer;
+}
+
+.review-quote {
+  fill: $white;
+  background-color: $bg-light-orange;
+  width: 36rem;
+  height: 36rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -18rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  svg {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+@include tablet {
+  .review-section {
+    padding: 48rem 24rem;
+  }
+
+  .review-list-container {
+    max-width: 760rem;
+    padding: 0 44rem;
+    margin: 0 auto;
+  }
+
+  .review-author {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .review-author-icon {
+    margin-right: 16rem;
+  }
+}
+
+@include desktop {
+  .review-heading {
+    font-size: 40rem;
+  }
+
+  .review-intro {
+    font-size: 20rem;
+  }
+
+  .review-list-container {
+    max-width: 960rem;
+    padding: 0;
+  }
+
+  .review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .review-item {
+    flex-basis: 30%;
+    max-width: 30%;
+    margin: 16rem 16rem 24rem;
+    padding: 24rem;
+  }
+
+  .review-btn {
+    margin-top: 40rem;
+  }
+}
