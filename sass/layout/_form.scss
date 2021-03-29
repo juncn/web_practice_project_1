@@ -48,11 +48,12 @@
 @include tablet {
   .form-section {
     padding: 0 24rem;
+    max-width: 720rem;
+    margin: 0 auto;
   }
 
   .lead-form-container {
     max-width: 760rem;
-    margin: 0 15rem;
   }
 
   .form-input {
