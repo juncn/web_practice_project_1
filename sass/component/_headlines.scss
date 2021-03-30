@@ -1,0 +1,15 @@
+@import '../utilities/variables';
+@import '../utilities/mixins';
+
+.headline {
+  font-family: $quicksand;
+  font-size: 28rem;
+  font-weight: $fw-bold;
+  color: $primary-color;
+}
+
+@include desktop {
+  .headline {
+    font-size: 40rem;
+  }
+}

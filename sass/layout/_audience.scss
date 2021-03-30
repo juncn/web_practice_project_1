@@ -7,11 +7,7 @@
   padding: 48rem 16rem;
 }
 
-.audience-heading {
-  color: $primary-color;
-  font-family: $quicksand;
-  font-size: 28rem;
-  font-weight: $fw-bold;
+.audience-headline {
   margin-bottom: 24rem;
   text-align: center;
 }
@@ -52,11 +48,5 @@
   
   .audience-intro {
     padding: 0 15rem;
-  }
-}
-
-@include desktop {
-  .audience-heading {
-    font-size: 40rem;
   }
 }

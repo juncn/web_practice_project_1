@@ -19,9 +19,6 @@
 
 .benefits-headline {
   margin-bottom: 16rem;
-  font-family: $quicksand;
-  font-size: 28rem;
-  font-weight: $fw-bold;
 }
 
 .benefits-intro {
@@ -82,9 +79,5 @@
 @include desktop {
   .benefits-item {
     flex-basis: 33.33%;
-  }
-
-  .benefits-headline {
-    font-size: 40rem;
   }
 }

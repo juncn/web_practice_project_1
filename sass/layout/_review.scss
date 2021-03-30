@@ -6,11 +6,7 @@
   text-align: center;
 }
 
-.review-heading {
-  color: $primary-color;
-  font-family: $quicksand;
-  font-size: 28rem;
-  font-weight: $fw-bold;
+.review-headline {
   margin-bottom: 8rem;
 }
 
@@ -104,10 +100,6 @@
 }
 
 @include desktop {
-  .review-heading {
-    font-size: 40rem;
-  }
-
   .review-intro {
     font-size: 20rem;
   }

@@ -10,10 +10,6 @@
 }
 
 .content-headline {
-  color: $primary-color;
-  font-family: $quicksand;
-  font-size: 28rem;
-  font-weight: $fw-bold;
   margin-bottom: 48rem;
   text-align: center;
 }
@@ -70,11 +66,5 @@
   .figure-holder,
   .key-points {
     padding: 0 16rem;
-  }
-}
-
-@include desktop {
-  .content-headline {
-    font-size: 40rem;
   }
 }

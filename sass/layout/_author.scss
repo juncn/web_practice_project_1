@@ -14,10 +14,8 @@
   margin: 16rem auto 48rem;
 }
 
-.author-heading {
-  font-family: $quicksand;
-  font-size: 28rem;
-  font-weight: $fw-bold;
+.author-headline {
+  color: $white;
   margin-bottom: 16rem;
   text-align: center;
 }
@@ -72,10 +70,6 @@
 }
 
 @include desktop {
-  .author-heading {
-    font-size: 40rem;
-  }
-
   .author-bio {
     max-width: 760rem;
     margin: 0 auto 16rem;
