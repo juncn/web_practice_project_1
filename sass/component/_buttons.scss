@@ -1,0 +1,27 @@
+@import '../utilities/variables';
+
+.btn-primary {
+  background-color: $btn-primary;
+  color: $white;
+  cursor: pointer;
+  padding: 14rem 40rem;
+  border-radius: 32rem;
+
+  &:hover {
+    background-color: $btn-primary-hover;
+  }
+}
+
+.btn-secondary {
+  background-color: $white;
+  border: 2px solid $btn-primary;
+  color: $btn-primary;
+  cursor: pointer;
+  padding: 12rem 40rem;
+  border-radius: 32rem;
+
+  &:hover {
+    background-color: $btn-primary;
+    color: $white;
+  }
+}

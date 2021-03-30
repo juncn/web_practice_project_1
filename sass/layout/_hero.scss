@@ -25,23 +25,10 @@
   margin-bottom: 24rem;
 }
 
-.btn {
-  cursor: pointer;
-  padding: 14rem 40rem;
+.hero-btn {
   border-radius: 25rem;
-  border: 2px solid transparent;
   font-size: 16rem;
   margin-bottom: 16rem;
-}
-
-.btn-primary {
-  background-color: $btn-primary;
-  color: $white;
-}
-
-.btn-secondary {
-  border-color: $btn-primary;
-  color: $btn-primary;
 }
 
 .hero-quotes {
